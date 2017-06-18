@@ -1,8 +1,8 @@
 'use strict';
 
 var appServer = 'http://localhost:3000';
-var bucket = '<bucket-name>';
-var region = 'oss-cn-hangzhou';
+var bucket = 'banzhuannanzihan';
+var region = 'oss-cn-shanghai';
 
 var urllib = OSS.urllib;
 var Buffer = OSS.Buffer;
