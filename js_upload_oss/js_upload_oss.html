@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://www.promisejs.org/polyfills/promise-6.1.0.js"></script>
+    <script type="text/javascript" src="http://gosspublic.alicdn.com/aliyun-oss-sdk.min.js"></script>
+    <script type="text/javascript" src="jsOssUpload.js"></script>
+
+</head>
+<body>
+    <form action="" class="form-horizontal">
+        <div class="form-group">
+            <label>Select file</label>
+            <input type="file" id="file" />
+        </div>
+        <div class="form-group">
+            <label>Store as</label>
+            <input type="text" class="form-control" id="object-key-file" value="object" />
+        </div>
+        <div class="form-group">
+            <input type="button" class="btn btn-primary" id="file-button" value="Upload" />
+        </div>
+    </form>
+
+</body>
+</html>
